@@ -22,15 +22,17 @@ function Projects(props){
       // Map Through project.json and return data
     return projects.map((project, index) => (
         
-      <div key={index}> 
-        <h1>{project.name}</h1>
-        <img src={project.image} />
+      <div key={index} className="project"> 
+  
         <a href={project.git}>
-          <button>Github</button>
+          <button className="git">Github</button>
         </a>
         <a href={project.live}>
-          <button>live site</button>
+          <button className="live">Vist Site</button>
         </a>
+        <h1>{project.name}</h1>
+        <img src={project.image} />
+        
       </div>
      
     ));

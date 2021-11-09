@@ -1,13 +1,66 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: American Typewriter, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-size: large;
+  
+  background-color: lightseagreen;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.git{
+  display: "flex";
+  justify-content: "space-between";
+  padding: 10px 15px 10px 15px;
+  color:white;
+  background-color: black;
+  font-size: larger;
+  font-weight: 900;
+  border-radius: 70px;
+  border: none;
+}
+.live{
+  display: "flex";
+  justify-content: "space-between";
+  margin-left: 10px;
+  padding: 10px 15px 10px 15px;
+  color:white;
+  background-color: blue;
+  font-size: larger;
+  font-weight: 900;
+  border-radius: 70px;
+  border: none;
+}
+img{
+  display: inline-block;
+  width: 60%;
+}
+a{
+  text-decoration: none;
+  font-weight: 900;
+  color: white;
+}
+.project{
+  display: inline-block;
+  margin: 40px ;
+  box-shadow: 8px 8px 8px 8px gray;
+  width: 60%;
+  height: 80%;
+}
+footer{
+  background-color: white;
+  text-align: left;
+}
+footer a{
+color: black;
+text-decoration: underline;
+}
+.about img{
+  width: 20%;
+  border-radius: 300px;
 }
