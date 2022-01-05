@@ -15,7 +15,7 @@ function About(props){
         setAbout(data)
     }
      // make an initial call for the data inside a useEffect, so it only happens once on component load
-    useEffect(() => getAbout(), []);
+    useEffect(() => getAbout(), );
 
     // define a function that will return the JSX needed once we get the data
     const loaded = () => (
@@ -23,7 +23,7 @@ function About(props){
        <h2>{about.name}</h2>
        <h3>{about.email}</h3>
        <p>{about.bio}</p>
-       <img src={about.headshot}/>
+       <img src={about.headshot} alt=""/>
      </div>
   );
 

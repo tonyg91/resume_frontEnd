@@ -1,8 +1,10 @@
 function Footer(props){
-    return<footer>
-        <h2>Documintation</h2>
-        <div><a href="https://reactjs.org/docs/getting-started.html">React</a></div>
-        <div><a href="https://expressjs.com/en/guide/routing.html">Express</a></div>
-        </footer>
+    return(
+    <footer>
+        <h2>Links</h2>
+        <div><a href="https://github.com/tonyg91">GitHub</a></div>
+        <div><a href="https://www.linkedin.com/in/anthony-gonzales-0958511b7/">Linkedin</a></div>
+    </footer>
+    )
 }
 export default Footer

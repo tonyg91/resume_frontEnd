@@ -5,14 +5,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   font-size: large;
-  
-  background-color: lightseagreen;
+  background-color: black;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 .git{
   display: "flex";
   justify-content: "space-between";
@@ -42,25 +38,41 @@ img{
 }
 a{
   text-decoration: none;
-  font-weight: 900;
   color: white;
 }
 .project{
-  display: inline-block;
-  margin: 40px ;
-  box-shadow: 8px 8px 8px 8px gray;
-  width: 60%;
-  height: 80%;
+  display: flex;
+  margin: 40px auto;
+  width: 50%;
+  box-shadow: 4px 2px 4px 4px pink;
 }
 footer{
-  background-color: white;
+  color: white;
   text-align: center;
 }
+
 footer a{
-color: black;
+color: white;
 text-decoration: underline;
 }
 .about img{
   width: 20%;
   border-radius: 300px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: small;
+  box-shadow: 4px 2px 4px 4px yellow;
+}
+header{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.project a{
+  color: blue;
 }
