@@ -1,6 +1,7 @@
 function Home(props){
     return(
-    <div>
+    <div className="home">
+        <div className="hometext">
         <h2>Education</h2>
         <h5>Software Engineering Immersive | General Assembly</h5>
         <h5>Associates of Information Technology| Full Sail University</h5>
@@ -10,6 +11,7 @@ function Home(props){
         <h2>Skills</h2>
         <h5>Programming Languages and Framworks: Python, HTML, CSS, JavaScript, React, Masonite, Django, </h5>
         <h5>Operating Systems: Windows, Linux, macOS</h5>
+        </div>
     </div>
     )
 }

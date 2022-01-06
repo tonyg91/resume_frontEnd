@@ -76,3 +76,10 @@ header{
 .project a{
   color: blue;
 }
+.headshot{
+  box-shadow: 6px 4px 4px 3px blue;
+}
+.home{
+  box-shadow: 8px 4px 7px 8px blue;
+  width: 98%;
+}
